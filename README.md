@@ -1,102 +1,49 @@
-﻿
-  
-
-Voici le site pour visualiser le langage md du read me : https://stackedit.io/app#
+Here is the site to view the md language of read me: https://stackedit.io/app#
 
   
 
-  
-
-# Graphe (grille)
+# Graph (grid)
 
   
+Our project is on grid graphs. It was done as part of the 2021-2022 LIFAP6 teaching unit.
 
-  
+ 
 
-Notre projet porte sur les graphes sous forme de grilles. Il a été réalisé dans le cadre de l'unité d'enseignement LIFAP6 de 2021-2022.
-
-  
+## Archive Organization
 
   
 
-## Organisation de l'archive
+**. / :** Contains the Makefile to compile the project by creating two executables contained in the bin folder.
 
-  
+**bin/ :** Contains the main and mainTest executables.
 
-  
+**data/ :** All files (.txt) containing graph information.
 
-**./ :** Contient le Makefile permettant de compiler le projet en créant deux exécutables contenus dans le dossier bin.
+**obj/ :** Object files (.o): main. o, mainTest. o, Graph.o.
 
-  
+**src/ :** Source files . cpp and header . h: Graphe.cpp, Graphe. h, main.cpp, mainTest.cpp.
 
-  
 
-**bin/ :** Contient les exécutables main et mainTest.
+## Usage and Executables
 
-  
 
-  
+To compile and create executables, we use the make command in the Linux terminal followed by . /bin/ExecuteName from the folder.
 
-**data/ :** Tous les fichiers (.txt) contenant les informations des graphes.
+Our project contains two executables:
 
-  
+- main: executable to create either a graph manually by choosing the height, width and altitudes of each peak or a graph from a file. It is then possible to choose the type of distance calculation (2D or 3D) and if you want to activate the chatd mode. You must then choose the departure and destination index for the A* algorithm.
 
-  
-
-**obj/ :** Les fichiers objets (.o) : main.o, mainTest.o, Graphe.o.
-
-  
-
-  
-
-**src/ :** Les fichiers sources .cpp et header .h : Graphe.cpp, Graphe.h, main.cpp, mainTest.cpp.
-
-  
-
-  
-
-## Utilisation et Exécutables
-
-  
-
-  
-
-Pour compiler et créer les exécutables, on utilise la commande make dans le terminal Linux suivi de ./bin/nomExecutable depuis le dossier.
-
-  
-
-  
-
-Notre projet contient deux exécutables :
-
-  
-
-  
-
-- main : exécutable permettant de créer soit un graphe manuellement en choisissant la hauteur, la largeur ainsi que les altitudes de chaque sommet ou un graphe à partir d'un fichier. Il est ensuite possible de choisir le type de calcul de distance (2D ou 3D) et si l'on souhaite activer le mode bavard. Il faut ensuite choisir l'indice de départ et de destination pour l'algorithme A*.
-
-  
-- mainTest : exécutable permettant de tester les fonctions de la classe Graphe.
+- mainTest: executable to test the functions of the graph class.
   
 
 ## Module
 
-  
+- Top: type corresponding to a top of a graph.
 
-- Sommet : type correspondant à un sommet d'un graphe.
+- Graph: class which corresponds to a graph.
 
-- Graphe : classe qui correspond à un graphe.
+## Creators
 
-## Créateurs
+BEN JEMIA Boran 
 
-  
-
-  
-
-BEN JEMIA Boran (p1924945)
-
-  
-
-  
-
-ROULLIER LEA (p1911736)
+LEA ROULLIER 
